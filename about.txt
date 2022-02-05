@@ -1,0 +1,13 @@
+A project to simulate and visualize 3D random walks.
+
+db_setup.py - sets up a MySQL database to store the results of the simulations.
+
+rw3d.py - the collection of functions used to run the simulations as well as some other functions
+for running some calculations on the simulations, and functions for visualizing the simulations
+
+run_sims.py - a simple script that calls some functions in rw3d.py to run a set of simulations
+
+test_plot_06_3d_scatters.py - a test to visualize the results of a particular set of
+simulations. The script generates a plot of a set of walks in 3 dimensions. It also produces a
+visualization of the randomly changing orientation as lines tracing motion across the surface
+of a sphere.
